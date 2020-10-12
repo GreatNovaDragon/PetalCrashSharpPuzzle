@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>disable</Nullable>
+        <StartupObject>PetalCrashSharpConsole.Program</StartupObject>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PetalCrashSharpLib\PetalCrashSharpLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Properties\" />
+    </ItemGroup>
+
+</Project>
